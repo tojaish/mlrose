@@ -4,14 +4,14 @@
 # License: BSD 3 clause
 
 try:
-    import mlrose_hiive
+    import mlrose
 except:
     import sys
     sys.path.append("..")
 
 import unittest
 import numpy as np
-from mlrose_hiive.neural.activation import identity, sigmoid, softmax, tanh, relu ,leaky_relu
+from mlrose.neural.activation import identity, sigmoid, softmax, tanh, relu ,leaky_relu
 # The above functions are not automatically imported at initialization, so
 # must be imported explicitly from activation.py.
 

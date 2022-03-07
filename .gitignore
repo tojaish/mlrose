@@ -1,8 +1,8 @@
 __pycache__/*
 tests/__pycache__/*
-mlrose_hiive/__pycache__/*
-mlrose_hiive/*/__pycache__/*
-mlrose_hiive/*/*/__pycache__/*
+mlrose/__pycache__/*
+mlrose/*/__pycache__/*
+mlrose/*/*/__pycache__/*
 build/*
 mlrose.egg-info/*
 dist/*
@@ -11,6 +11,6 @@ docs/_static/*
 docs/_templates/*
 .vscode/settings.json
 tsp_test/*
-mlrose_hiive.egg-info/*
+mlrose.egg-info/*
 venvp/
 /.idea/

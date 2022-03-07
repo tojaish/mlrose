@@ -15,7 +15,7 @@ def readme():
 
 VERSION = '2.2.4'
 
-setup(name='mlrose_hiive',
+setup(name='mlrose',
       version=VERSION,
       description="MLROSe: Machine Learning, Randomized Optimization and"
       + " Search (hiive extended remix)",
@@ -37,12 +37,12 @@ setup(name='mlrose_hiive',
           "Topic :: Scientific/Engineering :: Mathematics",
           "Topic :: Software Development :: Libraries",
           "Topic :: Software Development :: Libraries :: Python Modules"],
-      packages=['mlrose_hiive','mlrose_hiive.runners','mlrose_hiive.generators', 'mlrose_hiive.algorithms',
-                'mlrose_hiive.algorithms.decay', 'mlrose_hiive.algorithms.crossovers',
-                'mlrose_hiive.opt_probs', 'mlrose_hiive.fitness', 'mlrose_hiive.algorithms.mutators',
-                'mlrose_hiive.neural', 'mlrose_hiive.neural.activation', 'mlrose_hiive.neural.fitness',
-                'mlrose_hiive.neural.utils', 'mlrose_hiive.decorators',
-                'mlrose_hiive.gridsearch'],
+      packages=['mlrose','mlrose.runners','mlrose.generators', 'mlrose.algorithms',
+                'mlrose.algorithms.decay', 'mlrose.algorithms.crossovers',
+                'mlrose.opt_probs', 'mlrose.fitness', 'mlrose.algorithms.mutators',
+                'mlrose.neural', 'mlrose.neural.activation', 'mlrose.neural.fitness',
+                'mlrose.neural.utils', 'mlrose.decorators',
+                'mlrose.gridsearch'],
       install_requires=['numpy', 'scipy', 'scikit-learn', 'pandas', 'networkx', 'joblib'],
       python_requires='>=3',
       zip_safe=False)
